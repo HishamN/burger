@@ -1,21 +1,15 @@
--- work on the burger_db
-USE `burger_db`;
--- insert 3 burger
-INSERT INTO `burger` (
-burger_name,
-devoured,
-date
-) VALUES
-('juicy burger', false, CURRENT_TIMESTAMP);
-INSERT INTO `burger` (
-burger_name,
-devoured,
-date
-) VALUES
-('big mac', false, CURRENT_TIMESTAMP);
-INSERT INTO `burger` (
-burger_name,
-devoured,
-date
-) VALUES
-('vegan burger', false, CURRENT_TIMESTAMP);
+-- work on the burgers_db
+USE "burgers_db";
+-- 3 burger
+INSERT INTO burgers
+   (burger_name, devoured)
+VALUES
+   ('Cheese burger', FALSE);
+INSERT INTO burgers
+   (burger_name, devoured)
+VALUES
+   ('Double burger', FALSE);
+INSERT INTO burgers
+   (burger_name, devoured)
+VALUES
+   ('Kids burger', FALSE);
